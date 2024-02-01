@@ -17,21 +17,19 @@
 // return normalized.SequenceEqual(normalized.Reverse());
 // }
 // }
-    Console.WriteLine("Введите слово:")
-    
+    Console.WriteLine("Введите слово:");
+
     string st = Console.ReadLine();
     char[] mas = new char[st.Length];
 
-    for (int i = 0; i < mas.Length; i++)
-    {
-        mas[i] = str[i]
+    for(int i = 0; i < mas.Length; i++){
+        mas[i] = st[i];
     }
 
-    for (int i = 0; i < mas.Length/; i++)
-    {
+    for (int i = 0; i < mas.Length/2; i++){
         if(mas[i] == mas[mas.Length - 1])
         {
-            Console.WriteLine("Слово является палиндром");
+            Console.WriteLine("Слово является палиндромом");
         }
     }
 
