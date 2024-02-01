@@ -1,11 +1,4 @@
-﻿// На основе символов строки (тип string) сформировать массив
-// символов (тип char[]). Вывести массив на экран.
-// Указание
-// Метод строки ToCharArray() не использовать.
-// Пример
-// “Hello!” => [‘H’, ‘e’, ‘l’, ‘l’, ‘o’, ‘!’ ] 
-
-char[] StringOfChar(string str)
+﻿char[] StringOfChar(string str)
 {
     char[] mas = new char[str.Length];
 
